@@ -5,9 +5,8 @@
         
     <ais-instant-search-ssr
                     
-                    :routing="routing"
-
-                  >
+        
+>
 
                             <!-- :search-client="searchClient"
                   index-name="development_organizations" -->
@@ -800,6 +799,13 @@ import {
 } from 'vue-instantsearch';
 import algoliasearch from 'algoliasearch/lite';
 
+import {
+    ChevronDownIcon,
+    ChevronUpIcon,
+    XIcon,
+    CheckIcon,
+} from 'vue-feather-icons';
+
 const searchClient = algoliasearch(
   "F62MOPA7KR",
     "85e52ff35b00c7ff5430ea1d182cb818"
@@ -863,6 +869,10 @@ export default {
     AisToggleRefinement,
     AisClearRefinements,
     AisCurrentRefinements,
+    ChevronDownIcon,
+    ChevronUpIcon,
+    XIcon,
+    CheckIcon,
     
   },
   head() {
