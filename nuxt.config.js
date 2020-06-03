@@ -131,7 +131,13 @@ export default {
   */
   modules: [
     '@nuxtjs/pwa',
+    "@nuxtjs/redirect-module",
   ],
+
+  redirect: [
+    { from: "/$", to: "/hope-portal" }
+  ],
+
   /*
   ** Build configuration
   */
