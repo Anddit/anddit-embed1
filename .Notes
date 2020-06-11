@@ -1,0 +1,4 @@
+Had to make these updates to algolia-search-helper:
+https://github.com/algolia/algoliasearch-helper-js/commit/e68ecfe9897e630443ce72618a832291c0151df8
+
+Background here: https://gitmemory.com/issue/algolia/vue-instantsearch/755/575205207
